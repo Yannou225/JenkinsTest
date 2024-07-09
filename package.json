@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "name": "calculatricejest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.6",
+    "@testing-library/react": "^16.0.0",
+    "@types/jest": "^29.5.12",
+    "jest-environment-jsdom": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "jest": {
+    "testEnvironment": "jsdom"
+    
+  }
+
+}
